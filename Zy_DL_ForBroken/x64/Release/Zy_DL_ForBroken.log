@@ -1,0 +1,36 @@
+﻿生成启动时间为 2021/8/6 17:24:12。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\Zy_DL_ForBroken\Zy_DL_ForBroken.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /Zi /nologo /W3 /WX- /Od /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D ZY_DL_FORBROKEN_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" /Zi /nologo /W3 /WX- /Od /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D ZY_DL_FORBROKEN_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt zyBrokenRecongition.cpp stdafx.cpp Zy_DL_ForBroken.cpp
+         zyBrokenRecongition.cpp
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\NvInfer.h(3558): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>zyBrokenRecongition.cpp(126): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>zyBrokenRecongition.cpp(127): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>zyBrokenRecongition.cpp(128): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>zyBrokenRecongition.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+         stdafx.cpp
+         Zy_DL_ForBroken.cpp
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\NvInfer.h(3558): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\Zy_DL_ForBroken.res" Zy_DL_ForBroken.rc 
+       Link:
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\x64\Release /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64" cudart_static.lib myelin64_1.lib nvinfer.lib nvinfer_plugin.lib nvonnxparser.lib nvparsers.lib cudart_static.lib opencv_core2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.lib" /MACHINE:X64 /DLL x64\Release\Zy_DL_ForBroken.res
+         x64\Release\dllmain.obj
+         x64\Release\zyBrokenRecongition.obj
+         x64\Release\stdafx.obj
+         x64\Release\Zy_DL_ForBroken.obj
+           正在创建库 C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.lib 和对象 C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.exp
+         正在生成代码
+         All 223 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Zy_DL_ForBroken.vcxproj -> C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\x64\Release\Zy_DL_ForBroken.dll
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\BrokenClassify\Zy_DL_ForBroken\Zy_DL_ForBroken\Zy_DL_ForBroken.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.02
